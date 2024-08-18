@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: end;
+  background-color: rgb(217, 215, 213);
+  align-items: center;
+  height: 80px;
+  gap: 60px;
+  margin-bottom: none;
+  padding-top: none;
+  padding-bottom: none;
+}
+.options {
+  display: inline;
+  margin-right: 100px;
+}
+.main-icon-logo {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.searchbar-wrapper {
+  width: 600px;
+  position: relative;
+}
+.searchbar {
+  position: static;
+  padding-left: 50px;
+
+  width: 500px;
+  border: none;
+  border-radius: 13px;
+  height: 40px;
+  outline: none;
+  background-repeat: no-repeat;
+  background-image: url("../../public/icons8-search.svg");
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar-icons {
+  display: flex;
+  margin-right: 50px;
+}
+.navbar-icons-list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  justify-items: end;
+  gap: 110px;
+  align-items: center;
+}
